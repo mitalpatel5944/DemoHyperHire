@@ -18,14 +18,9 @@ function HomeScreen() {
     Alert.alert(message);
   };
 
-  //   const handleNativeAlert = () => {
-  //     webViewRef.current.postMessage("Native Alert clicked");
-  //   };
-
   const NativeAlert = () => {
     webViewRef.current.postMessage("WV Alert");
   };
-
 
   const injectedJavaScript = `
     document.addEventListener('message', function(event) {

@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 import HomeScreen from "./src/screen/HomeScreen";
 
